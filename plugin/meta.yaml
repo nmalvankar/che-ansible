@@ -18,4 +18,3 @@ spec:
     args: ['/remote-endpoint/plugin-remote-endpoint']
   extensions:
   - https://github.com/nmalvankar/che-ansible/releases/download/0.7.1/redhat.ansible-0.7.1.vsix
-
