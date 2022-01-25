@@ -11,11 +11,5 @@ repository: https://github.com/ansible/vscode-ansible
 category: Language
 firstPublicationDate: '2021-08-04'
 spec:
-  containers:
-  - image: quay.io/sunix/che-remote-plugin-ansible
-    name: vscode-ansible
-    memoryLimit: '512M'
-    args: ['/remote-endpoint/plugin-remote-endpoint']
   extensions:
   - https://github.com/nmalvankar/che-ansible/releases/download/0.7.1/redhat.ansible-0.7.1.vsix
-  - https://github.com/nmalvankar/che-ansible/releases/download/0.7.1/ms-python.python-2021.12.1559732655.vsix
