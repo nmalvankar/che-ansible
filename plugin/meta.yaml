@@ -17,4 +17,4 @@ spec:
     memoryLimit: '512M'
     args: ['/remote-endpoint/plugin-remote-endpoint']
   extensions:
-  - https://open-vsx.org/api/redhat/ansible/0.4.5/file/redhat.ansible-0.4.5.vsix
+  - https://open-vsx.org/api/redhat/ansible/0.8.1/file/redhat.ansible-0.8.1.vsix
