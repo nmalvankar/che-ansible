@@ -34,11 +34,11 @@ components:
     env:
       - name: HOME
         value: /projects/
-
+  - id: ms-python/python/latest
+    type: chePlugin
   - alias: ansible-plugin
     type: chePlugin
     reference: https://raw.githubusercontent.com/nmalvankar/che-ansible/master/plugin/meta.yaml
-
   - id: redhat/vscode-yaml/latest
     type: chePlugin
 
