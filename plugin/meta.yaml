@@ -1,15 +1,20 @@
 apiVersion: v2
-publisher: vscoss
+publisher: redhat
 name: vscode-ansible
 version: latest
 type: VS Code extension
 displayName: Ansible
 title: Ansible extension
 description: ansible for che
-icon: https://redhat.gallerycdn.vsassets.io/extensions/redhat/ansible/0.7.1/1637943815138/Microsoft.VisualStudio.Services.Icons.Default
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
 repository: https://github.com/ansible/vscode-ansible
 category: Language
-firstPublicationDate: '2021-08-04'
+firstPublicationDate: '2021-09-20'
 spec:
+  containers:
+  - image: quay.io/sunix/che-remote-plugin-ansible
+    name: vscode-ansible
+    memoryLimit: '512M'
+    args: ['/remote-endpoint/plugin-remote-endpoint']
   extensions:
-  - https://github.com/nmalvankar/che-ansible/releases/download/0.7.1/redhat.ansible-0.7.1.vsix
+  - https://open-vsx.org/api/redhat/ansible/0.4.5/file/redhat.ansible-0.4.5.vsix
