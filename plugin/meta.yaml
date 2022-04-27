@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2021-09-20'
 spec:
   containers:
-  - image: quay.io/sunix/che-remote-plugin-ansible
+  - image: quay.io/nmalvankar/che-remote-plugin-ansible
     name: vscode-ansible
     memoryLimit: '512M'
     args: ['/remote-endpoint/plugin-remote-endpoint']
