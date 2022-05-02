@@ -12,7 +12,7 @@ category: Language
 firstPublicationDate: '2021-09-20'
 spec:
   containers:
-  - image: quay.io/nmalvankar/crw-ansible-rh
+  - image: nmalvankar/crw-ansible-rh:2.12
     name: vscode-ansible
     memoryLimit: '512M'
     args: ['/remote-endpoint/plugin-remote-endpoint']
