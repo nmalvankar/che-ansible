@@ -17,6 +17,6 @@ spec:
     memoryLimit: '512M'
     args: ['/remote-endpoint/plugin-remote-endpoint']
   extensions:
-  - https://open-vsx.org/api/redhat/ansible/0.8.1/file/redhat.ansible-0.8.1.vsix
+  - https://open-vsx.org/api/redhat/ansible/0.4.5/file/redhat.ansible-0.4.5.vsix
   - https://github.com/redhat-developer/codeready-workspaces-vscode-extensions/releases/download/v34b6b7e/vscode-python-2020.7.94776.vsix
   - https://github.com/redhat-developer/codeready-workspaces-vscode-extensions/releases/download/ve96a2bb/vscode-yaml-0.14.0.vsix
