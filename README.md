@@ -1,1 +1,1 @@
-# Configure VSCode Extension for Ansible in CodeReady Workspaces
+# VSCode Ansible Extension Setup in CodeReady Workspaces
